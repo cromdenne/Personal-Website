@@ -5,3 +5,16 @@ body {
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Poiret One', cursive;
 }
+
+.bg-light {
+    background-color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.bg-dark {
+    background-color: #3b3b3b;
+    color: #fafafa;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
