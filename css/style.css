@@ -1,20 +1,30 @@
 body {
-    font-family: 'Muli', sans-serif;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 20px;
+    line-height: 2;
+    background-color: #fafafa;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    font-family: 'Poiret One', cursive;
+    font-family: 'Krona One', sans-serif;
+    line-height: 2;
 }
 
-.bg-light {
-    background-color: #fafafa;
-    padding-top: 20px;
-    padding-bottom: 20px;
+.title {
+    font-size: 64px;
 }
 
-.bg-dark {
+.emphasize {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.brick {
+    margin: 10px;
+    padding: 50px;
+}
+
+.dark {
     background-color: #3b3b3b;
     color: #fafafa;
-    padding-top: 20px;
-    padding-bottom: 20px;
 }
