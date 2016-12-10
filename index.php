@@ -141,17 +141,17 @@
                         
                         <!-- TheFutureRomdennes.com -->
                         <div class="col-md-4">
-                            <img src="images/thefutureromdennes.jpg" class="img-responsive work-img" alt="screen grab of TheFutureRomdennes.com" >
+                            <img src="images/thefutureromdennes.jpg" class="img-responsive img-hover-effect" alt="screen grab of TheFutureRomdennes.com" >
                         </div><!-- /.col-md-4 -->
                         
                         <!-- LuxemburgCascoSoccer.com -->
                         <div class="col-md-4">
-                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive work-img" alt="screen grab of LuxemburgCascoSoccer.com" >
+                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive img-hover-effect" alt="screen grab of LuxemburgCascoSoccer.com" >
                         </div><!-- /.col-md-4 -->
                         
                         <!-- work example 3 -->
                         <div class="col-md-4">
-                            <img src="http://fakeimg.pl/1024x550/?text=work example 3" class="img-responsive work-img" alt="screen grab of work example 3" >
+                            <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive img-hover-effect" alt="screen grab of work example 3" >
                         </div><!-- /.col-md-4 -->
                         
                     </div><!-- /.row -->
