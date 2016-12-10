@@ -17,7 +17,44 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* CUSTOM EFFECTS */
+a {
+    color: #2ecc71;
+    border-bottom: 3px solid #2ecc71;
+}
 
+a:visited {
+    color: #2ecc71;
+}
+
+a:hover {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+a:active {
+    color: #2ecc71;
+    text-decoration: none;
+}
+
+.btn-custom {
+    background-color: none;
+    border: 3px solid #2ecc71;
+    padding: 10px;
+    color: #3a3a3a
+}
+
+.btn-custom:hover {
+    background-color: rgba(46, 204, 113, 0.5);
+    color: #3a3a3a;
+    -webkit-transition: background-color 400ms;
+    -moz-transition: background-color 400ms;
+    -o-transition: background-color 400ms;
+    transition: background-color 400ms;
+}
+
+.link-plain {
+    border-bottom: none;
+}
 
 /* BANNER */
 .title {

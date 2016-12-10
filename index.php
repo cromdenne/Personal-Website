@@ -142,6 +142,25 @@
             <div class="row brick" id="contact">
                 <div class="text-center">
                     <h2>CONTACT</h2>
+                    <br>
+                    <p>Now that you know who I am, I’d like to get to know you. If you have a project that you think I could help with, or if you have a position you think I’d be a good fit in, please reach out and we’ll learn a bit more about each other.</p>
+                    <br>
+                    <a class="btn-custom" role="button">Email Me</a>
+                    <br><br>
+                    
+                    <!-- contact links -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-3">
+                            <a href="#">Resumé</a>
+                        </div><!-- /.md-col-4 -->
+                        <div class="col-md-2">
+                            <a href="#">LinkedIn</a>
+                        </div><!-- /.md-col-4 -->
+                        <div class="col-md-2">
+                            <a href="#">GitHub</a>
+                        </div><!-- /.md-col-4 -->
+                    </div><!-- /.row -->
+                    
                 </div><!-- /.text-center -->
             </div><!-- /#contact -->
             
