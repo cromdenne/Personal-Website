@@ -1,8 +1,10 @@
+/* BOOTSTRAP OVERRIDES */
 body {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 20px;
     line-height: 2;
     background-color: #fafafa;
+    color: #3a3a3a;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -10,10 +12,19 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 2;
 }
 
+.progress-bar-success {
+    background-color: #2ecc71;
+}
+
+/* CUSTOM EFFECTS */
+
+
+/* BANNER */
 .title {
     font-size: 64px;
 }
 
+/* ABOUT */
 .emphasize {
     font-weight: bold;
     font-size: 1.5em;
@@ -25,6 +36,15 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .dark {
-    background-color: #3b3b3b;
+    background-color: #3a3a3a;
     color: #fafafa;
+}
+
+/* SKILLS */
+#skills {
+    font-size: 14px;
+}
+
+.skill-bar {
+    padding-top: 2px;
 }

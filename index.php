@@ -26,12 +26,15 @@
         
         <div class="container-fluid">
             
+            <!-- BANNER -->
             <div class="row brick" id="banner">
                 <div class="text-center">
-                    <a href="index.php"><img src="images/romdenne-logo.png" alt="Cory Romdenne's personal logo" width="25%"></a>
+                    <a href="index.php" class="link-plain"><img src="images/romdenne-logo.png" alt="Cory Romdenne's personal logo" width="25%"></a>
                     <h1 class="title">CORY ROMDENNE</h1>
                 </div><!-- /.text-center -->
             </div><!-- /#banner -->
+            
+            <!-- ABOUT -->
             <div class="row brick dark" id="about">
                 <div class="col-md-3">
                     <!-- check out janlosert.com for text over image effect in small viewport -->
@@ -43,16 +46,99 @@
                     <p>I enjoy helping people solve problems. I also like to build things. I’ve found web development to be a rewarding intersection of the two and it’s been an interest of mine ever since my first job maintaining websites for the UW - Madison College of Letters and Sciences. I enjoy developing elegant front-end interfaces that users love. I write in HTML, CSS, Javascript and PHP. I design with Adobe Photoshop and Illustrator. I love to learn.</p>
                 </div><!-- /.col-md-8 -->
             </div><!-- /#about -->
+            
+            <!-- SKILLS -->
             <div class="row brick" id="skills">
                 <div class="text-center">
                     <h2>SKILLS</h2>
+                    <br>
+                    
+                    <!-- HTML and CSS skill bar -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>HTML &amp; CSS</p>
+                        </div><!-- /.col-md-2 col-md-offset-1 -->
+                        <div class="col-md-8 skill-bar">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
+                                    <span class="sr-only">90% to mastery</span>
+                                </div><!-- /.progress-bar progress-bar-success -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.col-md-8 -->
+                    </div><!-- /.row -->
+                    <p></p>
+                    
+                    <!-- JavaScript and JQuery skill bar -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>JavaScript &amp; JQuery</p>
+                        </div><!-- /.col-md-2 col-md-offset-1 -->
+                        <div class="col-md-8 skill-bar">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% to mastery</span>
+                                </div><!-- /.progress-bar progress-bar-success -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.col-md-8 -->
+                    </div><!-- /.row -->
+                    <p></p>
+                    
+                    <!-- Bootstrap and Foundation skill bar -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>Bootstrap &amp; Foundation</p>
+                        </div><!-- /.col-md-2 col-md-offset-1 -->
+                        <div class="col-md-8 skill-bar">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width: 70%;">
+                                    <span class="sr-only">70% to mastery</span>
+                                </div><!-- /.progress-bar progress-bar-success -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.col-md-8 -->
+                    </div><!-- /.row -->
+                    <p></p>
+                    
+                    <!-- WordPress skill bar -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>WordPress</p>
+                        </div><!-- /.col-md-2 col-md-offset-1 -->
+                        <div class="col-md-8 skill-bar">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                                    <span class="sr-only">60% to mastery</span>
+                                </div><!-- /.progress-bar progress-bar-success -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.col-md-8 -->
+                    </div><!-- /.row -->
+                    <p></p>
+                    
+                    <!-- Photoshop and Illustrator skill bar -->
+                    <div class="row">
+                        <div class="col-md-2 col-md-offset-1">
+                            <p>Photoshop &amp; Illustrator</p>
+                        </div><!-- /.col-md-2 col-md-offset-1 -->
+                        <div class="col-md-8 skill-bar">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%;">
+                                    <span class="sr-only">75% to mastery</span>
+                                </div><!-- /.progress-bar progress-bar-success -->
+                            </div><!-- /.progress -->
+                        </div><!-- /.col-md-8 -->
+                    </div><!-- /.row -->
+                    <p></p>
+                    
                 </div><!-- /.text-center -->
             </div><!-- /#skills -->
+            
+            <!-- WORK -->
             <div class="row brick dark" id="work">
                 <div class="text-center">
                     <h2>WORK</h2>
                 </div><!-- /.text-center -->
             </div><!-- /#work -->
+            
+            <!-- CONTACT -->
             <div class="row brick" id="contact">
                 <div class="text-center">
                     <h2>CONTACT</h2>
