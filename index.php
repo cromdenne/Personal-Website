@@ -16,6 +16,7 @@
         
         <!-- custom styles -->
         <link href="css/style.css" rel="stylesheet">
+        <link href="css/img-effect.css" rel="stylesheet">
         
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Krona+One|Reem+Kufi" rel="stylesheet">
@@ -135,40 +136,56 @@
             <div class="row brick dark" id="work">
                 <div class="text-center">
                     <h2>WORK</h2>
-                    <br>
-                    
-                    <div class="row">
-                        
-                        <!-- TheFutureRomdennes.com -->
-                        <div class="col-md-4">
-                            <img src="images/thefutureromdennes.jpg" class="img-responsive img-hover-effect" alt="screen grab of TheFutureRomdennes.com" >
-                        </div><!-- /.col-md-4 -->
-                        
-                        <!-- LuxemburgCascoSoccer.com -->
-                        <div class="col-md-4">
-                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive img-hover-effect" alt="screen grab of LuxemburgCascoSoccer.com" >
-                        </div><!-- /.col-md-4 -->
-                        
-                        <!-- work example 3 -->
-                        <div class="col-md-4">
-                            <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive img-hover-effect" alt="screen grab of work example 3" >
-                        </div><!-- /.col-md-4 -->
-                        
-                    </div><!-- /.row -->
-                    
                 </div><!-- /.text-center -->
+
+                <br>
+                    
+                <div class="row">
+
+                    <!-- TheFutureRomdennes.com -->
+                    <div class="col-md-4">
+                        <div class="img-hover-effect">
+                            <img src="images/thefutureromdennes.jpg" class="img-responsive hover-master" alt="screen grab of TheFutureRomdennes.com">
+                            <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
+                            <div class="hover-text">
+                                <h6>TheFutureRomdennes.com</h6>
+                                <br>
+                                <p>My wedding site.</p>
+                            </div><!-- /.test -->
+                        </div><!-- /.img-hover-effect -->
+                    </div><!-- /.col-md-4 -->
+
+                    <!-- LuxemburgCascoSoccer.com -->
+                    <div class="col-md-4">
+                        <div class="img-hover-effect">
+                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive" alt="screen grab of LuxemburgCascoSoccer.com" >
+                        </div><!-- /.img-hover-effect -->
+                    </div><!-- /.col-md-4 -->
+
+                    <!-- work example 3 -->
+                    <div class="col-md-4">
+                        <div class="img-hover-effect">
+                            <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive" alt="screen grab of work example 3" >
+                        </div><!-- /.img-hover-effect -->
+                    </div><!-- /.col-md-4 -->
+
+                </div><!-- /.row -->
             </div><!-- /#work -->
             
             <!-- CONTACT -->
             <div class="row brick" id="contact">
                 <div class="text-center">
                     <h2>CONTACT</h2>
-                    <br>
+                </div><!-- /.text-center -->
+
+                <br>
+                
+                <div class="text-center">
                     <p>Now that you know who I am, I’d like to get to know you. If you have a project that you think I could help with, or if you have a position you think I’d be a good fit in, please reach out and we’ll learn a bit more about each other.</p>
                     <br>
                     <a class="btn-custom" role="button">Email Me</a>
                     <br><br>
-                    
+
                     <!-- contact links -->
                     <div class="row">
                         <div class="col-md-2 col-md-offset-3">
@@ -181,8 +198,8 @@
                             <a href="#">GitHub</a>
                         </div><!-- /.md-col-4 -->
                     </div><!-- /.row -->
-                    
                 </div><!-- /.text-center -->
+                    
             </div><!-- /#contact -->
             
         </div><!-- /.container -->

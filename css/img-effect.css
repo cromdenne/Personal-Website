@@ -1,0 +1,50 @@
+/*===========================================================================*/
+/*  HOVER EFFECTS FOR IMAGES                                                 */
+/*===========================================================================*/
+.img-hover-effect img {
+    width: 100%;
+}
+
+.hover-mask {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0.0;
+}
+
+.hover-text {
+    position: absolute;
+    top: 0px;
+    left: 25px;
+    line-height: 1;
+    color: #fafafa;
+    opacity: 0.0;
+}
+
+.hover-text h6 {
+    border-bottom: 3px solid #fafafa;
+}
+
+.img-hover-effect p {
+    font-size: 14px;
+    line-height: 1.25;
+}
+
+.hover-mask, .hover-text {
+    opacity: 0.0;
+    cursor:default;
+    -webkit-transition: opacity 400ms ease-in-out;
+    -moz-transition: opacity 400ms ease-in-out;
+    -o-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+}
+
+.img-hover-effect:hover > .hover-mask,
+.img-hover-effect:hover > .hover-text{
+    opacity: 1.0;
+    cursor:default;
+    -webkit-transition: opacity 400ms ease-in-out;
+    -moz-transition: opacity 400ms ease-in-out;
+    -o-transition: opacity 400ms ease-in-out;
+    transition: opacity 400ms ease-in-out;
+}

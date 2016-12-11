@@ -1,4 +1,6 @@
-/* BOOTSTRAP OVERRIDES */
+/*===========================================================================*/
+/*  BOOTSTRAP OVERRIDES                                                      */
+/*===========================================================================*/
 body {
     font-family: 'Reem Kufi', sans-serif;
     font-size: 20px;
@@ -16,7 +18,9 @@ h1, h2, h3, h4, h5, h6 {
     background-color: #2ecc71;
 }
 
-/* CUSTOM EFFECTS */
+/*===========================================================================*/
+/*  CUSTOM EFFECTS                                                           */
+/*===========================================================================*/
 a {
     color: #2ecc71;
     border-bottom: 3px solid #2ecc71;
@@ -37,31 +41,43 @@ a:active {
 }
 
 .btn-custom {
-    background-color: none;
+    background-color: rgba(46, 204, 113, 0.0);
     border: 3px solid #2ecc71;
     padding: 10px;
-    color: #3a3a3a
+    color: #3a3a3a;
+    -webkit-transition: background-color 400ms ease-in-out;
+    -moz-transition: background-color 400ms ease-in-out;
+    -o-transition: background-color 400ms ease-in-out;
+    transition: background-color 400ms ease-in-out;
 }
 
 .btn-custom:hover {
     background-color: rgba(46, 204, 113, 0.5);
     color: #3a3a3a;
-    -webkit-transition: background-color 400ms;
-    -moz-transition: background-color 400ms;
-    -o-transition: background-color 400ms;
-    transition: background-color 400ms;
+    -webkit-transition: background-color 400ms ease-in-out;
+    -moz-transition: background-color 400ms ease-in-out;
+    -o-transition: background-color 400ms ease-in-out;
+    transition: background-color 400ms ease-in-out;
+}
+
+.btn-custom:active {
+    color: #3a3a3a;
 }
 
 .link-plain {
     border-bottom: none;
 }
 
-/* BANNER */
+/*===========================================================================*/
+/*  BANNER                                                                   */
+/*===========================================================================*/
 .title {
     font-size: 64px;
 }
 
-/* ABOUT */
+/*===========================================================================*/
+/*  ABOUT                                                                    */
+/*===========================================================================*/
 .emphasize {
     font-weight: bold;
     font-size: 1.5em;
@@ -77,7 +93,9 @@ a:active {
     color: #fafafa;
 }
 
-/* SKILLS */
+/*===========================================================================*/
+/*  SKILLS                                                                   */
+/*===========================================================================*/
 #skills {
     font-size: 14px;
 }
