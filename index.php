@@ -223,6 +223,9 @@
         <!-- Include all compiled plugins -->
         <script src="js/bootstrap.min.js"></script>
         
+        <!-- Custom scripts -->
+        <script src="js/bar-effect.js"></script>
+        
     </body>
 
 </html>
