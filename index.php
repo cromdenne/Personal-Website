@@ -145,39 +145,39 @@
                     <!-- TheFutureRomdennes.com -->
                     <div class="col-md-4">
                         <div class="img-hover-effect">
-                            <img src="images/thefutureromdennes.jpg" class="img-responsive hover-master" alt="screen grab of TheFutureRomdennes.com">
+                            <img src="images/thefutureromdennes.jpg" class="img-responsive hover-master" alt="engagement photo from TheFutureRomdennes.com" >
                             <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
                             <div class="hover-text">
-                                <h6>TheFutureRomdennes.com</h6>
+                                <h6><span class="hover-text-title"><a href="http://thefutureromdennes.com/" class="link-plain" target="_blank" >TheFutureRomdennes.com</span> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></h6>
                                 <br>
-                                <p>My wedding site.</p>
-                            </div><!-- /.test -->
+                                <p class="hover-text-desc">My wedding site.</p>
+                            </div><!-- /.hover-text -->
                         </div><!-- /.img-hover-effect -->
                     </div><!-- /.col-md-4 -->
 
                     <!-- LuxemburgCascoSoccer.com -->
                     <div class="col-md-4">
                         <div class="img-hover-effect">
-                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive" alt="screen grab of LuxemburgCascoSoccer.com" >
+                            <img src="images/luxemburgcascosoccer.jpg" class="img-responsive hover-master" alt="news item photo of womens soccer team from LuxemburgCascoSoccer.com" >
                             <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
                             <div class="hover-text">
-                                <h6>LuxemburgCascoSoccer.com</h6>
+                                <h6><span class="hover-text-title"><a href="http://luxemburgcascosoccer.com/" class="link-plain" target="_blank" >LuxemburgCascoSoccer.com</span> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></h6>
                                 <br>
-                                <p>A WordPress site I created for the booster club.</p>
-                            </div><!-- /.test -->
+                                <p class="hover-text-desc">A WordPress site I created for the booster club.</p>
+                            </div><!-- /.hover-text -->
                         </div><!-- /.img-hover-effect -->
                     </div><!-- /.col-md-4 -->
 
                     <!-- work example 3 -->
                     <div class="col-md-4">
                         <div class="img-hover-effect">
-                            <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive" alt="screen grab of work example 3" >
+                            <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive hover-master" alt="screen grab of work example 3" >
                             <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
                             <div class="hover-text">
-                                <h6>Work example three</h6>
+                                <h6><span class="hover-text-title"><a href="#" class="link-plain" target="_blank" >Work example three</span> <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></a></h6>
                                 <br>
-                                <p>Another site I made.</p>
-                            </div><!-- /.test -->
+                                <p class="hover-text-desc">Another example of my work.</p>
+                            </div><!-- /.hover-text -->
                         </div><!-- /.img-hover-effect -->
                     </div><!-- /.col-md-4 -->
 
