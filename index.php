@@ -159,6 +159,12 @@
                     <div class="col-md-4">
                         <div class="img-hover-effect">
                             <img src="images/luxemburgcascosoccer.jpg" class="img-responsive" alt="screen grab of LuxemburgCascoSoccer.com" >
+                            <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
+                            <div class="hover-text">
+                                <h6>LuxemburgCascoSoccer.com</h6>
+                                <br>
+                                <p>A WordPress site I created for the booster club.</p>
+                            </div><!-- /.test -->
                         </div><!-- /.img-hover-effect -->
                     </div><!-- /.col-md-4 -->
 
@@ -166,6 +172,12 @@
                     <div class="col-md-4">
                         <div class="img-hover-effect">
                             <img src="http://fakeimg.pl/600x375/?text=work example 3" class="img-responsive" alt="screen grab of work example 3" >
+                            <img src="images/mask.png" class="img-responsive hover-mask" alt="transparency over image" >
+                            <div class="hover-text">
+                                <h6>Work example three</h6>
+                                <br>
+                                <p>Another site I made.</p>
+                            </div><!-- /.test -->
                         </div><!-- /.img-hover-effect -->
                     </div><!-- /.col-md-4 -->
 
