@@ -1,0 +1,112 @@
+/*===========================================================================*/
+/*  BOOTSTRAP OVERRIDES                                                      */
+/*===========================================================================*/
+html, body {
+	width: 100%;
+	height: 100%;
+    margin: 0px 0px 0px 10px;
+	padding: 0;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 14px;
+    line-height: 2;
+    background-color: #ffffff;
+    color: #3a3a3a;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Krona One', sans-serif;
+    line-height: 2;
+}
+
+/*===========================================================================*/
+/*  PAGE FRAME                                                               */
+/*===========================================================================*/
+#north, #east, #south, #west {
+	position: fixed;
+	display: block;
+	z-index: 1000;
+	background: #3a3a3a;
+}
+
+#north {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    width: 100%;
+}
+
+#east { 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+}
+
+#south {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 20px;
+}
+
+#west {
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 20px;
+    height: 100%;
+}
+
+/*===========================================================================*/
+/*  PANES                                                                    */
+/*===========================================================================*/
+.pane-left {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 50px;
+    min-height: 490px;
+    background-color: #ff4258;
+    color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .pane-left {
+        float: left;
+        position: fixed;
+        top: 0;
+        height: 100%;
+        width: 50%;
+    }
+}
+
+.pane-right {
+    display: inline-block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 25px;
+    padding-right: 50px;
+    background-color: #ffffff;
+}
+
+@media (min-width: 768px) {
+    .pane-right {
+        float: right;
+        position: fixed;
+        top: 0;
+        right: 0;
+        height: 100%;
+        width: 50%;
+        overflow-y: scroll;
+        -webkit-overflow-scrolling: touch;
+        overflow-x: hidden;
+    }
+}
