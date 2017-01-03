@@ -130,10 +130,6 @@ h1, h2, h3, h4, h5, h6 {
     right: 40px;
     bottom: 30px;
     float: right;
-} @media (min-width: 760px) {
-    .left-footer {
-        
-    }
 }
 
 .social {
@@ -148,15 +144,23 @@ h1, h2, h3, h4, h5, h6 {
     color: #3a3a3a;
 }
 
+.about-container, .skills-container, .projects-container {
+    clear: both;
+    display: block;
+}
+
 .about-tag, .skills-tag, .projects-tag {
     color: #ff4258;
     font-weight: bold;
 } @media (min-width: 1024px) {
     .about-tag, .skills-tag, .projects-tag {
-        clear: both;
         float: left;
-        width: 80px;
+        width: 10%;
         margin-right: 30px;
+    }
+    .about-text, .skills-text, .projects {
+        float: left;
+        width: 80%;
     }
 }
 
@@ -166,26 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 .about-text {
     line-height: 26px;
     margin-bottom: 50px;
-} @media (min-width: 1024px) {
-    .about-text {
-        float: left;
-        width: 75%;
-        max-width: 500px;
-    }
 }
-
-/* unused link effects
-.about-text a {
-    padding: 0 4px 2px 4px;
-    border-bottom: 2px solid #A3C0FC;
-    font-weight: 400;
-    transition: background-color 0.3s, border-color 0.3s;
-}
-
-.about-text a:hover {
-    background-color: #E9F0FF;
-    border-color: #1560FB;
-} */
 
 /*===========================================================================*/
 /*  RIGHT PANE - SKILLS                                                      */
@@ -193,12 +178,6 @@ h1, h2, h3, h4, h5, h6 {
 .skills-text {
     line-height: 26px;
     margin-bottom: 50px;
-} @media (min-width: 1024px) {
-    .skills-text {
-        float: left;
-        width: 75%;
-        max-width: 500px;
-    }
 }
 
 /*===========================================================================*/
@@ -207,12 +186,6 @@ h1, h2, h3, h4, h5, h6 {
 .projects {
     line-height: 26px;
     margin-bottom: 25px;
-} @media (min-width: 1024px) {
-    .projects {
-        float: left;
-        width: 75%;
-        max-width: 500px;
-    }
 }
 
 .projects:last-child {
