@@ -72,8 +72,6 @@ h1, h2, h3, h4, h5, h6 {
     position: relative;
     width: 100%;
     margin-top: 10px;
-    padding-left: 25px;
-    padding-right: 50px;
     min-height: 490px;
     background-color: #ff4258;
     color: #ffffff;
@@ -81,6 +79,7 @@ h1, h2, h3, h4, h5, h6 {
     .pane-left {
         float: left;
         position: fixed;
+        padding-right: 40px;
         top: 0;
         height: 100%;
         width: 50%;
@@ -117,12 +116,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .left-info {
-    
+    padding-top: 50px;
+    text-align: center;
 } @media (min-width: 760px) {
     .left-info {
         position: relative;
-        top: 50%;  
+        top: 40%
     }
+}
+
+.contact {
+    margin-top: 50px;
+}
+
+.contact-button {
+    border: 5px solid #ffffff;
+    padding: 15px 50px;
+    font-family: 'Krona One', sans-serif;
+    color: #ffffff;
 }
 
 .left-footer {
