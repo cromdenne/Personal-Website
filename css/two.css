@@ -112,6 +112,10 @@ h1, h2, h3, h4, h5, h6 {
 /*===========================================================================*/
 /*  LEFT PANE                                                                */
 /*===========================================================================*/
+.pane-left {
+    color: #ffffff;
+}
+
 .left-info {
     
 } @media (min-width: 760px) {
@@ -121,9 +125,29 @@ h1, h2, h3, h4, h5, h6 {
     }
 }
 
+.left-footer {
+
+} @media (min-width: 760px) {
+    .left-footer {
+        position: absolute;
+        right: 40px;
+        bottom: 30px;
+        float: right;
+    }
+}
+
+.social {
+    color: #ffffff;
+    margin-left: 10px;
+}
+
 /*===========================================================================*/
 /*  RIGHT PANE                                                               */
 /*===========================================================================*/
+.pane-right {
+    color: #3a3a3a;
+}
+
 .about-tag, .skills-tag, .projects-tag {
     color: #ff4258;
     font-weight: bold;
