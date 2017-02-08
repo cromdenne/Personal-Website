@@ -86,7 +86,6 @@ h1, h2, h3, h4, h5, h6 {
 .pane-left {
     display: inline-block;
     position: relative;
-    min-height: 490px;
     padding: 50px 75px;
     background-color: #191d20;
     color: #ececec;
@@ -105,7 +104,9 @@ h1, h2, h3, h4, h5, h6 {
 
 .pane-right {
     display: inline-block;
-    padding: 50px;
+    position: relative;
+    width: 100%;
+    padding: 50px 75px;
     background-color: #ececec;
     color: #191d20;
 } @media (min-width: 768px) {
@@ -159,3 +160,22 @@ h1, h2, h3, h4, h5, h6 {
 /*  RIGHT PANE                                                               */
 /*===========================================================================*/
 .pane-right { }
+
+.pane-right .title {
+    margin-top: 50%;
+}
+
+.right-footer {
+    position: absolute;
+    left: 65px;
+    bottom: 30px;
+}
+
+.social {
+    color: #3a3a3a;
+    margin-left: 10px;
+}
+
+.social:hover, .social:visited, .social:active {
+    color: #ffbf00;
+}
