@@ -19,6 +19,7 @@
         
         <!-- custom styles -->
         <link href="css/night.css" rel="stylesheet">
+        <link href="css/loader.css" rel="stylesheet">
         
         <!-- Google Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Leckerli+One" rel="stylesheet">
@@ -27,6 +28,11 @@
     
     <body>
     
+        <div class="loader-wrapper">
+            <div class="loader-slide"></div>
+            <div class="loader-bar"></div>
+        </div><!-- /.loader-wrapper -->
+        
         <div class="pane-left">
             
             <div id="about" class="left-block">
@@ -243,27 +249,33 @@
         
         <div class="pane-right">
             
-            <h1 class="title">Hello,</h1>
-            <h3>I'm Cory.</h3>
+            <div class="right-heading">
+                <h1 class="title">
+                    <span id="h">H</span><span id="e">e</span><span id="l1">l</span><span id="l2">l</span><span id="o">o</span><span id="comma">,</span>
+                </h1>
+                <h3 id="cory">I'm Cory.</h3>
+            </div><!-- /.right-heading -->
             
             <br>
             
-            <div class="row tight">
-                <div class="col-md-2">
-                    <p class="heavy">talk</p>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-10">
-                    <p class="light">920.536.0422</p>
-                </div><!-- /.col-md-9 -->
-            </div><!-- /.row -->
-            <div class="row tight">
-                <div class="col-md-2">
-                    <p class="heavy">write</p>
-                </div><!-- /.col-md-3 -->
-                <div class="col-md-10">
-                    <p class="light">Cory@Romdenne.com</p>
-                </div><!-- /.col-md-9 -->
-            </div><!-- /.row -->
+            <div class="right-content">
+                <div class="row tight">
+                    <div class="col-md-2">
+                        <p class="heavy">talk</p>
+                    </div><!-- /.col-md-2 -->
+                    <div class="col-md-10">
+                        <p class="light">920.536.0422</p>
+                    </div><!-- /.col-md-10 -->
+                </div><!-- /.row -->
+                <div class="row tight">
+                    <div class="col-md-2">
+                        <p class="heavy">write</p>
+                    </div><!-- /.col-md-2 -->
+                    <div class="col-md-10">
+                        <p class="light">Cory@Romdenne.com</p>
+                    </div><!-- /.col-md-10 -->
+                </div><!-- /.row -->
+            </div><!--/. right-content -->
             
             <div class="right-footer">
             

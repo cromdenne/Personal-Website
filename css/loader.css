@@ -1,0 +1,162 @@
+/*===========================================================================*/
+/*  PHASE 1 - PREPPING                                                       */
+/*===========================================================================*/
+.loader-wrapper {
+    z-index: 999;
+    opacity: 0.0;
+    display: inline-block;
+    animation: 2s loaderAppear ease-out forwards,
+               1ms loaderDisappear linear 7s forwards;
+}
+
+@keyframes loaderAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+.loader-slide {
+    display: inline-block;
+    position: relative;
+    background-color: #191d20;
+} @media (min-width: 768px) {
+    .loader-slide {
+        position: fixed;
+        left: 0%;
+        transform: translate(0%, -50%);
+        top: 50%;
+        height: 0%;
+        width: 10px;
+        animation-name: loaderSlide;
+        animation-duration: 2s;
+        animation-timing-function: ease-in-out;
+        animation-delay: 0s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes loaderSlide {
+    0%   { height: 0px; width: 10px; }
+    50%  { height: 100%; width: 10px; }
+    100% { height: 100%; width: 60%; }
+}
+
+/*===========================================================================*/
+/*  PHASE 2 - RIGHT HEADING                                                  */
+/*===========================================================================*/
+@keyframes loaderDisappear {
+    0%   { opacity: 1.0; }
+    100% { opacity: 0.0; }
+}
+
+#h, #e, #l1, #l2, #o, #comma {
+    opacity: 0.0;
+}
+
+#h {
+    animation: 500ms rightHeadingHAppear ease-in-out 2s forwards;
+}
+
+#e {
+    animation: 500ms rightHeadingEAppear ease-in-out 2.1s forwards;
+}
+
+#l1 {
+    animation: 500ms rightHeadingL1Appear ease-in-out 2.2s forwards;
+}
+
+#l2 {
+    animation: 500ms rightHeadingL2Appear ease-in-out 2.3s forwards;
+}
+
+#o {
+    animation: 500ms rightHeadingOAppear ease-in-out 2.4s forwards;
+}
+
+#comma {
+    animation: 1s rightHeadingCommaAppear ease-in-out 2.5s forwards;
+}
+
+@keyframes rightHeadingHAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes rightHeadingEAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes rightHeadingL1Appear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes rightHeadingL2Appear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes rightHeadingOAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+@keyframes rightHeadingCommaAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+#cory {
+    opacity: 0.0;
+    animation: 1s rightHeadingCoryAppear ease-in-out 3.5s forwards;
+}
+
+@keyframes rightHeadingCoryAppear {
+    0%   { opacity: 0.0; }
+    100% { opacity: 1.0; }
+}
+
+/*===========================================================================*/
+/*  PHASE 3 - CONTENT                                                        */
+/*===========================================================================*/
+.right-content {
+    opacity: 0.0;
+    animation-name: rightContentAppear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rightContentAppear {
+    0%   { opacity: 0.0; margin-left: -75px; }
+    100% { opacity: 1.0; margin-left: 0px; }
+}
+
+.right-footer {
+    opacity: 0.0;
+    animation-name: rightFooterAppear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 5s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes rightFooterAppear {
+    0%   { opacity: 0.0; left: 0px; }
+    100% { opacity: 1.0; left: 65px; }
+}
+
+.pane-left {
+    opacity: 0.0;
+    animation-name: contentLeftAppear;
+    animation-duration: 1s;
+    animation-timing-function: ease-in-out;
+    animation-delay: 6s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes contentLeftAppear {
+    0%   { opacity: 0.0; margin-left: -75px; }
+    100% { opacity: 1.0; margin-left: 0px; }
+}
