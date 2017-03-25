@@ -37,11 +37,27 @@ h1, h2, h3, h4, h5, h6 {
     opacity: 1.0;
 }
 
+.hvr, .hvr:visited {
+    border-bottom: 2px solid;
+    color: inherit;
+    transition: all 300ms;
+}
+
+.hvr:hover, .hvr:active {
+    opacity: 0.5;
+    color: inherit;
+    text-decoration: none;
+    transition: all 300ms;
+}
+
 /*===========================================================================*/
 /*  CUSTOM STYLES                                                            */
 /*===========================================================================*/
-.title {
+.fancy {
     font-family: 'Leckerli One', cursive;
+}
+
+.title {
     font-size: 64px;
     color: #ffbf00;
 }
@@ -56,16 +72,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .lighter {
     opacity: 0.5;
-}
-
-.light-link {
-    opacity: 0.5;
-    color: #ececec;
-}
-
-.light-link:hover, .light-link:visited, .light-link:active {
-    text-decoration: none;
-    color: #ececec;
 }
 
 .tight {
@@ -184,8 +190,10 @@ h1, h2, h3, h4, h5, h6 {
 .social, .social:visited {
     color: #3a3a3a;
     margin-left: 10px;
+    transition: all 300ms;
 }
 
 .social:hover, .social:active {
     color: #ffbf00;
+    transition: all 300ms;
 }
