@@ -1,0 +1,183 @@
+/*===========================================================================*/
+/*  BOOTSTRAP OVERRIDES                                                      */
+/*===========================================================================*/
+body {
+  background-color: #191d20;
+  color: #5a5a5a;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 14px;
+  height: 100vh;
+  line-height: 1.5;
+	overflow-x: hidden;
+  width: 100vw;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 800;
+}
+
+.progress, .progress-bar {
+  height: 8px;
+  font-size: 8px;
+  line-height: 8px;
+  border: none;
+  border-radius: 0px;
+}
+
+.progress {
+  background-color: #343434;
+}
+
+.progress-bar {
+  background-color: #ececec;
+  opacity: 1.0;
+}
+
+.hvr, .hvr:visited {
+  border-bottom: 2px solid;
+  color: inherit;
+  transition: all 100ms;
+}
+
+.hvr:hover, .hvr:active, .hvr:focus {
+  opacity: 0.5;
+  color: inherit;
+  text-decoration: none;
+  transition: all 100ms;
+}
+
+/*===========================================================================*/
+/*  CUSTOM STYLES                                                            */
+/*===========================================================================*/
+.fancy-title {
+  font-family: 'Leckerli One', cursive;
+  font-size: 64px;
+  color: #ffbf00;
+}
+
+.heavy {
+  font-weight: 800;
+}
+
+.light {
+  opacity: 0.75;
+}
+
+.lighter {
+  opacity: 0.5;
+}
+
+::-webkit-scrollbar { 
+  display: none; 
+}
+
+/*===========================================================================*/
+/* panes                                                                     */
+/*===========================================================================*/
+.pane-bio, .pane-splash {
+  padding: 2em 4em;
+}
+
+.pane-bio {
+  background-color: #191d20;
+  color: #ececec;
+}
+
+.pane-splash {
+  background-color: #ececec;
+  background-image: url("../images/cory.jpg");
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+/*===========================================================================*/
+/* bio pane                                                                  */
+/*===========================================================================*/
+.number {
+  vertical-align: super;
+  margin-left: -20px;
+  padding: 0 10px 0 0;
+  font-size: 12px;
+  font-weight: 800;
+  color: #ffbf00;
+}
+
+.bio-block {
+  margin-bottom: 4em;
+}
+
+.bio-block:last-of-type {
+  margin-bottom: 0;
+}
+
+.skill-title {
+  margin-bottom: -10px;
+}
+
+.skill-bar {
+  margin-bottom: 12px;
+}
+
+.skill-desc {
+  margin-top: 0px;
+  line-height: 0.0;
+  color: #5a5a5a;
+}
+
+.about p,
+.projects p {
+  line-height: 2;
+}
+
+.experience .row,
+.education .row {
+  margin-bottom: 10px;
+}
+
+.experience .row p,
+.education .row p {
+  margin-bottom: 0;
+}
+
+/*===========================================================================*/
+/* splash pane                                                               */
+/*===========================================================================*/
+.pane-splash .content {
+  bottom: 0;
+  position: absolute;
+  margin-bottom: 2em;
+}
+
+.social, .social:visited {
+  font-size: 18px;
+  color: #3a3a3a;
+  margin-right: 10px;
+  transition: all 100ms;
+}
+
+.social:hover, .social:active, .social:focus {
+  color: #ffbf00;
+  text-decoration: none;
+  transition: all 100ms;
+}
+
+/*===========================================================================*/
+/* media queries                                                             */
+/*===========================================================================*/
+@media (min-width: 768px) {
+  .pane-bio, .pane-splash {
+    height: 100vh;
+  }
+  .pane-bio {
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 768px) {
+  .pane-splash {
+    min-height: 600px;
+  }
+}
